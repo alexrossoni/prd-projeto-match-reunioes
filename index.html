@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>PRD Match Reuniões</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">PRD Match Reuniões</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#product-requirements-document-prd" class="nav-link">Product Requirements Document (PRD)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-problema" class="nav-link">1. Problema</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-publico-alvo" class="nav-link">2. Público-alvo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-solucoes-existentes" class="nav-link">3. Soluções Existentes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-concorrentes" class="nav-link">4. Concorrentes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-indicadores-de-sucesso-do-produto" class="nav-link">5. Indicadores de Sucesso do Produto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#6-oportunidade-gap-identificado" class="nav-link">6. Oportunidade (gap identificado)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="product-requirements-document-prd">Product Requirements Document (PRD)</h1>
+<hr />
+<h2 id="1-problema">1. Problema</h2>
+<p>Um desafio frequente enfrentado por equipes de desenvolvimento de software é a dificuldade de encontrar horários em comum para realizar reuniões virtuais de alinhamento. Isso ocorre devido à incompatibilidade de agendas de integrantes com jornadas diferentes, como estagiários e trainees que possuem compromissos acadêmicos. Essa falta de sincronia acontece constantemente e gera graves "gaps" de informação e desalinhamento técnico. Como as equipes acabam realizando as reuniões mesmo com a ausência de alguns membros, a dependência posterior de atas e transcrições obriga os ausentes a buscarem atualizações de forma individualizada, reativa e ineficiente.</p>
+<hr />
+<h2 id="2-publico-alvo">2. Público-alvo</h2>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Perfil</strong></td>
+<td>Desenvolvedores de software, com foco especial em profissionais em início de carreira (estagiários, trainees e juniores) ou membros de equipes distribuídas/assíncronas.</td>
+</tr>
+<tr>
+<td><strong>Faixa etária</strong></td>
+<td>Majoritariamente 18 a 35 anos.</td>
+</tr>
+<tr>
+<td><strong>Contexto de uso</strong></td>
+<td>Trabalho remoto ou híbrido, lidando com metodologias ágeis (dailies, plannings, reviews) em times de tecnologia.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Benefícios esperados do produto</strong>
+O público-alvo espera <strong>ganhar tempo e autonomia</strong>. A solução deve eliminar a dor de se sentir "por fora" do que foi decidido na reunião, proporcionar a sensação de controle sobre suas tarefas e evitar o desgaste de ter que decifrar atas longas ou assistir a horas de gravação apenas para conseguir o contexto necessário para continuar programando.</p>
+<hr />
+<h2 id="3-solucoes-existentes">3. Soluções Existentes</h2>
+<table>
+<thead>
+<tr>
+<th>Solução</th>
+<th>Categoria (SaaS, app, serviço...)</th>
+<th>Resolve bem?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Microsoft Outlook</strong></td>
+<td>SaaS (Calendário e E-mail)</td>
+<td>Resolve parcialmente. Ajuda na verificação de disponibilidade, mas não soluciona o conflito inevitável de agendas incompatíveis por natureza.</td>
+</tr>
+<tr>
+<td><strong>Google Calendar</strong></td>
+<td>SaaS (Calendário)</td>
+<td>Resolve parcialmente. Permite a visualização de agendas para encontrar horários, mas não cobre o "gap" de informação de quem inevitavelmente precisa faltar.</td>
+</tr>
+<tr>
+<td><strong>Loom</strong></td>
+<td>SaaS (Comunicação Assíncrona)</td>
+<td>Resolve parcialmente. É ótimo para evitar reuniões, mas requer o esforço ativo de gravar um vídeo bem estruturado para cada atualização.</td>
+</tr>
+<tr>
+<td><strong>tl;dv / Fireflies</strong></td>
+<td>SaaS (IA para Reuniões)</td>
+<td>Resolve parcialmente. Resume bem a reunião que já aconteceu, mas ainda exige que o membro ausente acesse uma plataforma externa.</td>
+</tr>
+<tr>
+<td><strong>Notion / Confluence</strong></td>
+<td>SaaS (Gestão de Conhecimento)</td>
+<td>Não resolve bem para atualizações diárias. Depende de documentação manual pesada (atas) que raramente é lida no dia a dia.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-concorrentes">4. Concorrentes</h2>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nome</th>
+<th>Diferencial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Concorrente direto 1</strong></td>
+<td>tl;dv</td>
+<td>Gravação automática de reuniões no Meet/Zoom com transcrição e geração de resumos e clipes curtos por IA.</td>
+</tr>
+<tr>
+<td><strong>Concorrente direto 2</strong></td>
+<td>Loom</td>
+<td>Cultura de "vídeo-mensagem" em vez de reuniões. Interface rápida e extensão de navegador muito fácil de usar.</td>
+</tr>
+<tr>
+<td><strong>Concorrentes indiretos</strong></td>
+<td>Microsoft Outlook e Google Calendar</td>
+<td>Uso de convites de reunião e verificação de disponibilidade e visualização de agendas para encontrar horários.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-indicadores-de-sucesso-do-produto">5. Indicadores de Sucesso do Produto</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>O que mede</th>
+<th>Benchmark de mercado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Taxa de Engajamento</strong></td>
+<td>% de membros ausentes que consumiram o resumo/atualização em até 24h.</td>
+<td>&gt; 70% (Superior à leitura de atas em texto, que é &lt; 20%).</td>
+</tr>
+<tr>
+<td><strong>Time-to-information</strong></td>
+<td>Tempo médio (em minutos) que um dev leva para absorver o contexto e estar pronto para codar.</td>
+<td>Leitura/visualização de 2 a 5 minutos no máximo.</td>
+</tr>
+<tr>
+<td><strong>Redução de reuniões</strong></td>
+<td>Horas semanais economizadas pela equipe em reuniões síncronas de status.</td>
+<td>Economia de 2 a 4 horas semanais por colaborador.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-oportunidade-gap-identificado">6. Oportunidade (gap identificado)</h2>
+<p>As soluções existentes falham porque adotam um modelo passivo ("pull"), onde a informação é depositada em um repositório (como o Notion ou a plataforma do tl;dv) e o desenvolvedor ausente precisa proativamente ir até lá buscar o que perdeu. O grande <em>gap</em> que identificamos é a falta de uma solução que entregue o contexto exato e acionável diretamente no fluxo de trabalho técnico. </p>
+<p>A oportunidade está em criar algo ativo ("push"), que não apenas resuma a reunião, mas extraia os pontos de ação específicos de cada desenvolvedor ausente e os integre diretamente nas ferramentas que ele já tem abertas o dia todo (como enviando o contexto diretamente no GitLab, GitHub, Jira ou Slack), eliminando o atrito da troca de contexto e a necessidade de ler atas generalistas.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-03-15 15:51:56.700553+00:00
+-->
