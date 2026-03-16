@@ -3,3 +3,4 @@ site_name: PRD Match Reuniões
 nav:
   - PRD: index.md
   - Design: design.md
+  - Protótipo: 02-prototipo.md
