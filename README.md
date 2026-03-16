@@ -38,7 +38,8 @@ O **Match Reuniões** resolve esse problema adotando um modelo **ativo ("push")*
 ```
 prd-projeto-match-reunioes/
 ├── docs/
-│   └── index.md      # PRD completo do produto
+│   ├── index.md      # PRD completo do produto
+│   └── design.md     # Link para o protótipo no Figma
 ├── mkdocs.yml        # Configuração do MkDocs
 └── README.md         # Este arquivo
 ```
@@ -47,7 +48,7 @@ prd-projeto-match-reunioes/
 
 ## 📖 Documentação
 
-O PRD completo está disponível em [`docs/index.md`](docs/index.md) e inclui:
+O PRD completo está disponível em [`docs/index.md`](docs/index.md) e o protótipo de design em [`docs/design.md`](docs/design.md). O PRD inclui:
 
 - **Problema**: descrição do desafio enfrentado pelas equipes
 - **Público-alvo**: perfil detalhado dos usuários
